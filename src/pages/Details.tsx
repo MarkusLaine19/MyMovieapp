@@ -1,6 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
-import App from '../App';
+
 
 const Details: React.FC = () => {
 
@@ -18,4 +18,4 @@ const Details: React.FC = () => {
     );
 };
 
-export default App;
+export default Details;
