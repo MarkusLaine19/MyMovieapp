@@ -1,0 +1,7 @@
+{
+  "name": "MyMovieapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
