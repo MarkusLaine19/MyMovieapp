@@ -64,7 +64,7 @@ const Home: React.FC = () => {
         </IonItem> 
         <IonList>
           {results.map((item: SearchResult) => (
-            <IonItem button key={item.imdbID} routerLink={'/movies/${item.imdbID'}>
+            <IonItem button key={item.imdbID} routerLink={`/movies/${item.imdbID}`}>
               <IonAvatar slot='start'>
                 <IonImg src={item.Poster} />
               </IonAvatar>

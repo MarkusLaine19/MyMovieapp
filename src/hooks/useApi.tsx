@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export enum SearchType {
     all = '',
     movie = 'movie',
@@ -11,13 +13,16 @@ export interface SearchResult {
     Poster: string
     imdbID: string
     Type: string;
+    Genre: string;
 }
 export interface DetailsResult {
+    imdbRating: ReactNode;
     Title: string
     Year: string
     Poster: string
     imdbID: string
     Type: string;
+    Genre: string;
 }
 export interface SearchError {
     Response: string
